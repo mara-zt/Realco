@@ -1,7 +1,7 @@
 body {font-family: 'Roboto', sans-serif;  margin: 0; padding: 0; font-style: normal;}
 a {text-decoration: none;}
 li {list-style-type: none;}
-p {padding: 0; margin: 0;}
+p, h1, h3, h6 {padding: 0; margin: 0;}
 
 .container {max-width: 1440px; margin-left: auto; margin-right: auto;}
 .preheader {background-color: #939878;}
@@ -124,4 +124,84 @@ background-image: url(image/search.png); background-repeat: no-repeat; backgroun
     font-size: 16px;
     line-height: 24px;
     color: #65665C;}
+ 
+.frame__comfort__inner {padding: 60px 80px; background-image: url(image/comfort-bg.png);background-position: center right 80px; background-size: auto auto; background-repeat: no-repeat;}
+.frame__comfort__description {padding: 143px 0; max-width: 520px; background:#FFFFFF; background-position: center;}
+.two {max-width: 107px;}
+.frame__comfort__title--text {font-weight: 700;
+    font-size: 48px;
+    line-height: 58px; color: #2A2C1F;
+    margin-bottom: 20px;}
+.frame__comfort--text {font-weight: 400;
+    font-size: 18px;
+    line-height: 27px; color: #65665C; margin-bottom: 40px;} 
+.prop__link {background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px; font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;color: #2A2C1F;
+    padding: 13px 25px;
+    margin-right: 25px;} 
+.contact__link {font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2C1F;}   
 
+
+.frame__fast__inner {padding: 60px 80px; background-image: url(image/fast-bg.png);background-position: center left 80px; background-size: auto auto; background-repeat: no-repeat;}
+.three {max-width: 127px;}
+.frame__fast__description {max-width: 600px; margin-left: auto; background-color: #FFFFFF; padding: 55px 0;}
+.frame__confort__items {display: flex; justify-content: space-between;}
+.frame__comfort__item {max-width: 245px; margin-bottom: 50px;}
+.frame__fast__title {font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2A2C1F;}
+.frame__fast__text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;}
+.frame__fast {margin-bottom: 60px;}
+
+.properties__inner {background-color: #F5F5F2; padding: 120px 80px 160px 80px; position: relative;}
+.four {max-width: 92px; margin-left: auto; margin-right: auto; margin-bottom: 21px;}
+.properties__title-text {font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #2A2C1F;
+    margin-bottom: 80px;}
+
+.apartament__cards {display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 70px;}
+.apartament__card {max-width: 405px; background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px; margin-bottom: 30px;}
+.apartament__cards-des {padding: 24px;}
+.apartament__cards__name {font-weight: 700;
+    font-size: 24px;
+    line-height: 34px; color: #2A2C1F;
+margin-bottom: 8px;}
+.apartament__cards__price {font-weight: 700;
+    font-size: 18px;
+    line-height: 27px; color: #2A2C1F;
+    margin-bottom: 16px;}
+.apartament__cards__adress {font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;
+    margin-bottom: 16px;}
+.apartament__cards__option {display: flex;font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; color: #65665C;}
+.apartament__cards__adress::before {content: url(image/adress.png); padding-right: 10px;}
+.bedroom {margin: 0 25px;}
+.bath::before {content: url(image/bathtub.png); padding-right: 10px;}
+.bedroom::before {content: url(image/bed.png); padding-right: 10px;}
+.square::before {content: url(image/square_foot.png); padding-right: 10px;}
+.centre {text-align: center;}
+
+.frame__properties__description--before {position: absolute; right: 0; top: 0;}
+.frame__properties__description--after {position: absolute; left: 0; bottom: 0;}
