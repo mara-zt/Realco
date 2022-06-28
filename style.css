@@ -99,4 +99,29 @@ background-image: url(image/search.png); background-repeat: no-repeat; backgroun
 .frame__logos--img + .frame__logos--img {margin-left: 32px;}
 
 .frame__hiw__inner {padding: 60px 80px;}
+.frame__hiw__title {text-align: center; margin-bottom: 60px;}
+.frame__hiw__title--title {font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #2A2C1F;}
+.frame__hiw__title-text {   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #65665C;}
+.frame__hiw__items {display: flex; text-align: center; justify-content: space-between;}
+.frame__hiw__item {padding: 49px 33px 47px 33px; 
+    max-width: 340px;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;}
+.frame__hiw__item__title--text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2A2C1F;}
+.frame__hiw__item--text {font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;}
 
