@@ -1,0 +1,123 @@
+@media (max-width: 1420px) {
+    .apartament__card, .blog__card {width: 32%;}
+    .apartament__cards__img--img, .blog__card--img {width: 100%;}
+    .location__item {max-width: 29%;}
+    .reviews__items {justify-content: space-around;}
+    .reviews__item {margin-bottom: 20px; max-width: 26%}
+
+}
+@media (max-width: 1140px) {
+    .frame__logos__inner {display: block; padding: 20px 80px;}
+    .reviews__item {max-width: 40%}
+}
+
+
+@media (max-width: 1022px) {
+    .header__inner, .frame__top__description__inner, .frame__logos__inner, .frame__hiw__inner,.frame__comfort__inner, .frame__fast__inner, .properties__inner, .location__inner, .family__inner, .reviews__inner, .blog__inner {padding-left: 30px; padding-right: 30px;}
+    .menu__list {display: none;}
+    .menu__list.menu__list--activ {display: block;}
+    .header__mobile__btn {display: block;}
+    .header__menu {position: relative;}
+    .menu__list--items {display: block; position: absolute; top: 50px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; background-color: #fff; z-index: 1000;}
+    .menu__list--item + .menu__list--item {margin-left: 0px;}
+    .menu__list--item {margin-bottom: 8px;}
+    .frame__top__description--before, .frame__top__description--after {display: none;}
+    .frame__top__description__inner, .properties__inner {padding-top: 50px; padding-bottom: 50px;}
+    .frame__logos--logos {flex-wrap: wrap; justify-content: space-between;}
+    .frame__logos--img + .frame__logos--img {margin: 0;}
+    .frame__hiw__items {flex-wrap: wrap; justify-content: space-around;}
+    .frame__hiw__item {padding: 10px 12px; margin-bottom: 10px;}
+    .frame__hiw__item__title--text {margin-top: 3px;}
+    .frame__hiw__item--text {font-size: 14px; line-height: 22px;}
+    .frame__comfort__inner {padding-top: 0; padding-bottom: 0; background-position: center right 30px; margin-bottom: 30px;}
+    .frame__comfort__description {padding: 20px 0;}
+    .frame__fast__inner {background-position: center left 30px}
+    .frame__fast__inner {padding: 0px 0;}
+    .frame__fast__description {padding: 20px 0;}
+    .frame__properties__description--before, .frame__properties__description--after {display: none;}
+    .properties__title-text {margin-bottom: 20px;}
+    .apartament__cards {justify-content: space-around;}
+    .apartament__card, .blog__card, .reviews__item {margin-bottom: 20px;}
+    .location__items {justify-content: space-around;}
+    .location__item {max-width: 27%; padding: 15px;}
+    .apartament__card, .blog__card {width: 44%;}
+    .apartament__cards__img--img,.blog__card--img {width: 100%;}
+    .family__inner__in {padding: 35px 85px;}
+    .reviews__inner {padding-top: 40px; padding-bottom: 40px;}
+    .reviews__title--text {margin-bottom: 30px;}
+    .reviews__item {padding: 30px;}
+
+  
+
+    
+
+}
+
+@media (max-width: 735px) {
+    .frame__comfort__inner, .frame__fast__inner {background: none;}
+    .location__item {max-width: 40%;}
+    .family__inner__in {padding: 20px 10px;}
+    .reviews__item {max-width: 80%}
+}
+
+
+@media (max-width: 662px) {
+    .header__inner, .frame__fast__inner, .location__inner, .family__inner, .reviews__inner, .blog__inner{padding-left: 20px; padding-right: 20px;}
+    .frame__top__description__inner, .properties__inner {padding: 50px 20px;}
+    .frame__top__title--text, .properties__title-text {font-size: 38px;
+        line-height: 40px;}
+    .frame__top--text {font-size: 16px;
+        line-height: 24px;}
+    .frame__form-input::placeholder {font-size: 16px;
+    line-height: 24px;}
+    .frame__form-btn {font-size: 16px;
+    line-height: 24px; margin-top: 8px;}
+    .frame__logos__inner {padding: 20px 20px;}
+    .frame__logos--text {max-width: 80%; font-size: 16px; line-height: 24px;}
+    .frame__hiw__inner {padding: 20px 20px;}
+    .frame__hiw__title--title, .frame__comfort__title--text, .location__totle--title, .family__inner__in-title, .reviews__title--title {font-size: 34px; line-height: 38px;}
+    .frame__hiw__title-text,.frame__comfort--text, .location__title--text, .family__inner__in-text, .reviews__title--text, .reviews__items--text {font-size: 16px; line-height: 24px; }
+    .frame__hiw__title {margin-bottom: 20px;}
+    .frame__comfort__inner {padding: 20px 20px}
+    .apartament__cards-des {padding: 10px;}
+    .apartament__cards {margin-bottom: 40px;}
+    .location__title--text {margin-bottom: 30px;}
+    .location__inner {padding-bottom: 40px;}
+    .stars {margin-bottom: 10px;}
+   
+
+    
+
+}
+
+@media (max-width: 525px) {
+    .header__inner {display: block;}
+
+    .header__logo {margin-bottom: 10px;}
+    .header__menu {justify-content: space-around;}
+    .apartament__card, .blog__card {width: 100%;}
+    .apartament__cards__img--img,.blog__card--img {width: 100%;}
+    .location__item {max-width: 90%;}
+    .reviews__item {padding: 20px;}
+    
+
+
+} 
+
+@media (max-width: 420px) {
+        .header__cart, .header__property, .header__mobile__btn {padding-left: 10px; padding-right: 10px;}
+        .frame__comfort__buttons {display: inline;}
+        .frame__comfort__buttons--items {display: block;}
+        .buttons--item {margin-bottom: 25px;}
+        .contact__link {padding-left: 25px;}
+        
+}
+
+@media (max-width: 350px) {
+    .header__inner, .frame__top__description__inner, .frame__logos__inner, .frame__hiw__inner,.frame__comfort__inner, .frame__fast__inner, .location__inner, .family__inner, .reviews__inner, .blog__inner {padding-left: 10px; padding-right: 10px;}
+   
+}
+
+
+
+
