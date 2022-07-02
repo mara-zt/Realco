@@ -349,7 +349,7 @@ margin-bottom: 8px;}
     max-width: 320px;}
 .blog--link {line-height: 24px; color: #2A2C1F;}
 
-.footer__inner {padding: 64px 80px; display: flex;}
+.footer__inner {padding: 64px 80px; display: flex; flex-wrap: wrap;}
 .footer__menu--title {font-size: 16px;
     line-height: 24px; color: #2A2C1F; margin-bottom: 16px;}
 .footer__menu--item a {font-size: 14px;
