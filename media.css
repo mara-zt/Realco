@@ -136,7 +136,7 @@
 }
 
 @media (max-width: 350px) {
-    .header__inner, .frame__top__description__inner, .frame__logos__inner, .frame__hiw__inner,.frame__comfort__inner, .frame__fast__inner, .location__inner, .family__inner, .reviews__inner, .blog__inner, .footer__inner. .footer__end {padding-left: 10px; padding-right: 10px;}
+    .header__inner, .frame__top__description__inner, .frame__logos__inner, .frame__hiw__inner,.frame__comfort__inner, .frame__fast__inner, .location__inner, .family__inner, .reviews__inner, .blog__inner, .footer__inner, .footer__end {padding-left: 10px; padding-right: 10px;}
    
 }
 
